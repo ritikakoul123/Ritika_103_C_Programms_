@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // Pre-processive to include standard input output headet files 
  
 int main()
 {
