@@ -1,7 +1,8 @@
 #include <stdio.h> // Preprocessor to include the standard input and output funtions
 #include <math.h> // Preprocessor to include the Mathematics Funtions
 
-int main() {
+int main() // Start of Main body 
+{
 	float a, b, c, d, distance,E_distance; // variable declarztion 
 	printf("Input A: "); // taking Value of A
 	scanf("%f", &a);
@@ -17,3 +18,4 @@ int main() {
 	printf("\n");
 	return 0;
 }
+// End of Body 
