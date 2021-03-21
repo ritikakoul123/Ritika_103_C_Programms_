@@ -1,5 +1,5 @@
-//Author; Kavya Dhar
-//Creation Date; 17/03/2021
+//Author; Ritika Koul 
+//Creation Date; 11/03/2021
 //Purpose; WAP for printing a table and take input from user 
 
 #include <stdio.h>  	//Standard header filre for input and output
