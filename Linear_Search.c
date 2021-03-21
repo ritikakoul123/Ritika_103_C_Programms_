@@ -1,9 +1,9 @@
-#include<stdio.h>
+#include<stdio.h> // Pre-Procssive to include standard input output header files funtions 
   
-int main()
+int main() // Main body 
 {
-    int a[20],i,x,n;
-    printf("How many elements?");
+    int a[20],i,x,n; // Variable Declaration 
+    printf("How many elements?"); // Input from user 
     scanf("%d",&n);
      
     printf("Enter array elements:n");
@@ -18,9 +18,10 @@ int main()
             break;
      
     if(i<n)
-        printf("Element found at index %d",i);
+        printf("Element found at index %d",i);// Prinitng  result 
     else
         printf("Element not found");
   
     return 0;
 }
+  // End of body 
