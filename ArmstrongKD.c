@@ -2,7 +2,7 @@
 int main()
  {     // Start Of mail body
     int num, ON, re, result = 0; //  Variable Declaration
-    printf("Enter a three-digit integer: "); // taking input 
+    printf("Enter a three-digit integer: "); // taking input from user  
     scanf("%d", &num); // processing input 
     ON = num; // logic 
 
