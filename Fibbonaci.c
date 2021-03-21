@@ -1,7 +1,8 @@
-#include <stdio.h>
-int main() {
-    int i, n, t1 = 0, t2 = 1, nextTerm;
-    printf("Enter the number of terms: ");
+#include <stdio.h> // Pre-Processive to Include standard input and output header files funtions
+int main()  // Start of main body 
+{
+    int i, n, t1 = 0, t2 = 1, nextTerm; // Variable Declaration
+    printf("Enter the number of terms: "); // Input from user 
     scanf("%d", &n);
     printf("Fibonacci Series: ");
 
@@ -13,4 +14,4 @@ int main() {
     }
 
     return 0;
-}
+} // End of Body 
