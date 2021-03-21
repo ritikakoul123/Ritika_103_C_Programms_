@@ -7,7 +7,7 @@ scanf("%d",&n);
 while(n>0)    // Loop started 
 {    
 m=n%10;    
-sum=sum+m;    
+sum=sum+m;     // LOgic 
 n=n/10;    
 }    // Loop ended 
 printf("Sum is=%d",sum);   // Printing Sum of Digits 
