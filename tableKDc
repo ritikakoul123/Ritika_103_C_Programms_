@@ -1,4 +1,4 @@
-//Author; Ritika Koul 
+//Author; Kavya Dhar
 //Creation Date; 11/03/2021
 //Purpose; WAP for printing a table and take input from user 
 
@@ -16,3 +16,4 @@ int main()   //int main is a  function in which our whole code or program is wri
     return 0;
     // End of  main funtion body 
 }
+// ALL © reserved under Kavya dhar
