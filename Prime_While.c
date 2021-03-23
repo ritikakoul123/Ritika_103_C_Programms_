@@ -1,8 +1,8 @@
-#include <stdio.h> // Pro-Prossive to include standard input output header files funtions
+#include <stdio.h>
 int main()
 {
-   int a, i, c=0; // Variable Declration 
- 	printf("Enter number to check prime number or not"); // input from user 
+   int a, i, c=0;
+ 	printf("Enter number to check prime number or not");
     scanf("%d",&a);
     i=2;
     while( i<=a/2)
@@ -17,12 +17,12 @@ int main()
     }
  
     if (c==0)
-        printf("%d is a prime number.",a); // Print Prime if its true 
+        printf("%d is a prime number.",a);
     else
-        printf("%d is not a prime number.",a); // Print Not Prime if its False
+        printf("%d is not a prime number.",a);
  
     return 0;
-    // End of Program 
+    
 }
  
 
