@@ -1,4 +1,4 @@
-#include<stdio.h>  // Pre-Processive to include standard input and output header files    
+#include<stdio.h>    
 void printFibonacci(int n){    
     static int n1=0,n2=1,n3;    
     if(n>0){    

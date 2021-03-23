@@ -1,10 +1,10 @@
-#include<stdio.h> // Pre-Processive to include standard input or output header files functions
-int main() // Start Of Main body 
+#include<stdio.h> //  preprocessor to include standard input and output header files funtions
+int main() // Main Body 
 {
-int i; // Variable Declaration 
-float arr[5]; // declaring Array of size 5 with float data type 
+int i; // Variable declaration
+float arr[5]; // Declaring Array of size 5 with float data type 
 
-printf("Please enter five numbers:\n "); // Taking input from user 
+printf("Please enter five numbers:\n "); // Taking input 
 
 for (i = 0; i < 5; ++i)
 {
@@ -17,7 +17,7 @@ for (i = 1; i < 5; ++i)
     if (arr[0] < arr[i])
         arr[0] = arr[i];
 }
-printf("Largest element = %.2f", arr[0]); // Printing Result 
+printf("Largest element = %.2f", arr[0]); //  Output stament  
 
 return 0;
-}// End of Body 
+} // End of Body 
